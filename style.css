@@ -1,0 +1,47 @@
+body {
+    background: radial-gradient(circle at 100%,rebeccapurple,black);
+    color: gold;
+}
+
+.groovy{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(27, 80, 179);
+}
+
+#loginTitleText{
+    color:gold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+#loginDivText{
+    color:rgb(27, 80, 179);
+    font-weight: bolder;
+    text-align: center;
+}
+.blink_me {
+    animation: blinker 2.5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .button{
+    width: 100px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border-radius: 12.5px;
+    border-color: lavender;
+  }
+
+  .lgButton{
+    width: 200px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border-radius: 12.5px;
+    border-color: lavender;
+  }
